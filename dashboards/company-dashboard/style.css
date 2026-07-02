@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.node {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #2196F3;
+}
+
+.sensors p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.sensors span {
+  font-weight: bold;
+  color: #333;
+}
+
+.controls {
+  margin-top: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+button:hover {
+  background-color: #d0d0d0;
+}
+
+button.on {
+  background-color: #4CAF50;
+  color: white;
+}
+
+button.reset {
+  padding: 5px 10px;
+  margin-left: 10px;
+  font-size: 12px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button.reset:hover {
+  background-color: #d32f2f;
+}
+
+.leak-status {
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.leak-status h2 {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.leak-status p {
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+.no-leak {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.leak-detected {
+  background-color: #f44336;
+  color: white;
+}
+
+.prediction-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+
+.prediction-card h2 {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.prediction-card .big-number {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.prediction-info {
+  font-size: 12px;
+  opacity: 0.8;
+  margin-top: 10px;
+}
+
+#predicted-demand {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#refresh-prediction {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#refresh-prediction:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.time-controls {
+  margin: 15px 0;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+.time-controls label {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#time-selectors {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+#time-selectors select {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}

@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e3f2fd;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1565c0;
+}
+
+/* Selection Screen */
+#selection-screen {
+  text-align: center;
+  padding-top: 50px;
+}
+
+#selection-screen p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.customer-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.customer-buttons button {
+  padding: 30px 50px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #1976d2;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.customer-buttons button:hover {
+  background-color: #1565c0;
+}
+
+/* Customer Dashboard */
+#customer-dashboard {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.consumption-card,
+.pricing-card,
+.bill-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.consumption-card {
+  background-color: #2196f3;
+  color: white;
+}
+
+.consumption-card h2 {
+  color: white;
+}
+
+.bill-card {
+  background-color: #4caf50;
+  color: white;
+}
+
+.bill-card h2 {
+  color: white;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #1976d2;
+}
+
+.big-number {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* Pricing Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table tr {
+  border-bottom: 1px solid #eee;
+}
+
+table tr:last-child {
+  border-bottom: none;
+}
+
+table td {
+  padding: 10px;
+  font-size: 16px;
+}
+
+table td:last-child {
+  text-align: right;
+  font-weight: bold;
+}
+
+#bill-breakdown {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+  opacity: 0.9;
+}
+
+#back-button {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #757575;
+  color: white;
+}
+
+#back-button:hover {
+  background-color: #616161;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AquaGrid - Customer Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <!-- Selection Screen -->
+  <div id="selection-screen">
+    <h1>AquaGrid Customer Portal</h1>
+    <p>Select your account:</p>
+    <div class="customer-buttons">
+      <button id="select-customer1">Customer 1</button>
+      <button id="select-customer2">Customer 2</button>
+    </div>
+  </div>
+
+  <!-- Customer Dashboard (hidden initially) -->
+  <div id="customer-dashboard" class="hidden">
+    <h1>Welcome, <span id="customer-name">Customer</span></h1>
+    
+    <div class="consumption-card">
+      <h2>Monthly Consumption</h2>
+      <p class="big-number"><span id="consumption">0.00</span> L</p>
+    </div>
+
+    <div class="pricing-card">
+      <h2>Pricing Tiers</h2>
+      <table>
+        <tr>
+          <td>0 - 1 L</td>
+          <td>0.50 SAR/L</td>
+        </tr>
+        <tr>
+          <td>1 - 2 L</td>
+          <td>1.00 SAR/L</td>
+        </tr>
+        <tr>
+          <td>Above 2 L</td>
+          <td>1.50 SAR/L</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="bill-card">
+      <h2>Your Bill</h2>
+      <p class="big-number"><span id="bill">0.00</span> SAR</p>
+      <p id="bill-breakdown"></p>
+    </div>
+
+    <button id="back-button">← Back to Selection</button>
+  </div>
+
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+  
+  <script src="app.js"></script>
+</body>
+</html>
