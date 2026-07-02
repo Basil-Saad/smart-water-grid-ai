@@ -56,12 +56,38 @@ The architecture enables real-time data acquisition, cloud synchronization, AI-b
 
 ## System Components
 
-The complete system consists of five major components working together to provide an intelligent water distribution management platform.
+The proposed smart water grid management system integrates hardware, cloud services, AI analytics, and web applications into a unified platform. Three ESP32 sensor nodes collect real-time data from the water network and communicate exclusively through the Firebase Realtime Database, which acts as the central communication hub between all system components. The cloud infrastructure stores sensor data, synchronizes actuator commands, and provides data for visualization and AI-based demand prediction.
 
 | Component | Description |
 |-----------|-------------|
-| **ESP32 Sensor Nodes** | Distributed sensing and control units that monitor water level, flow rate, water quality, pressure, and operate valves and the water pump. |
-| **Firebase Cloud Platform** | Stores real-time sensor data, synchronizes all ESP32 nodes, and provides backend services for dashboards and AI processing. |
-| **XGBoost AI Prediction Model** | Predicts future water demand using historical data generated from the digital twin simulation. |
-| **Web Dashboards** | Separate dashboards for the water company and customers, providing real-time visualization, remote monitoring, and actuator control. |
-| **Digital Twin Simulation** | Python-based simulator that generates realistic water consumption datasets for training and evaluating the AI prediction model. |
+| **ESP32 Node 1 (Company Side)** | Monitors water level, flow rate, water quality (TDS), and pipeline pressure, while controlling the water pump and company-side solenoid valve. |
+| **ESP32 Nodes 2 & 3 (Customer Side)** | Measure customer water consumption using flow sensors and control individual solenoid valves for water distribution. |
+| **Firebase Realtime Database** | Central communication hub that stores sensor readings, synchronizes actuator commands, and connects all ESP32 nodes, dashboards, and AI services. |
+| **AI Prediction Module (XGBoost)** | Predicts future water demand using historical datasets generated from the digital twin simulation. |
+| **Company Dashboard** | Displays real-time system status, sensor values, alerts, historical trends, and provides remote actuator control. |
+| **Customer Dashboard** | Allows customers to monitor water usage, consumption history, and billing information in real time. |
+| **Digital Twin Simulation** | Python-based simulator that generates realistic water consumption datasets for AI model training and evaluation. |
+
+## Hardware Prototype
+
+The hardware prototype demonstrates the practical implementation of the proposed smart water grid management system. It consists of three ESP32-based sensing nodes integrated with water level, flow rate, water quality, and pressure sensing, along with relay-controlled actuators, solenoid valves, and a water pump. The prototype validates real-time monitoring, automatic control, cloud communication, and leakage detection in a realistic environment.
+
+### Prototype Overview
+
+<p align="center">
+  <img src="images/hardware/prototype-top-view.jpg" alt="Prototype Top View" width="350">
+</p>
+
+<p align="center">
+<b>Figure 1.</b> Top view of the implemented smart water grid prototype.
+</p>
+
+### Leakage Detection Branch
+
+<p align="center">
+  <img src="images/hardware/leakage-branch.jpg" alt="Leakage Detection Branch" width="250">
+</p>
+
+<p align="center">
+<b>Figure 2.</b> Experimental leakage branch used to simulate pipeline leaks and evaluate the leakage detection mechanism.
+</p>
