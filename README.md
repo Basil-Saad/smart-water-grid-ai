@@ -10,9 +10,20 @@ An AI-powered IoT platform for real-time water distribution monitoring, leakage 
 <p align="center">
   <img src="images/hero/system-overview.jpg" width="80%">
 </p>
+
 ## Project Highlights
-Real-time IoT monitoring
-AI-powered water demand prediction
-Automatic leakage detection
-Cloud dashboards for company and customers
-Digital Twin simulation
+
+- 📡 Real-time IoT Monitoring
+- 🤖 AI-based Water Demand Prediction
+- 💧 Automatic Leakage Detection
+- ☁️ Cloud Dashboards
+- 🌐 Digital Twin Simulation
+
+| Category | Details |
+|----------|---------|
+| Platform | IoT Smart Water Grid |
+| Microcontroller | ESP32 |
+| Programming | Arduino IDE, Python, HTML/CSS, JavaScript |
+| AI Model | XGBoost |
+| Cloud | Firebase |
+| Dashboard | Company & Customer Web Dashboards |
