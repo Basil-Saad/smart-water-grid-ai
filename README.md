@@ -178,3 +178,16 @@ The complete project documentation is available in the `docs` directory, includi
 |----------|-------------|
 | **Project book.pdf** | Complete project documentation, including system design, implementation, hardware architecture, software architecture, AI model development, evaluation, and conclusions. |
 | **Final Presentation.pptx** | Final capstone presentation summarizing the project objectives, architecture, implementation, results, and demonstration. |
+
+
+## Project Team
+
+This project was developed as a Computer Engineering capstone project at King Khalid University. It combines embedded systems, cloud computing, web development, artificial intelligence, and digital twin simulation to demonstrate an intelligent IoT-based water distribution management platform.
+
+<p align="center">
+  <img src="images/team/project-team.jpg" alt="Project Team" width="500">
+</p>
+
+<p align="center">
+<b>Project development team during the final project demonstration.</b>
+</p>
