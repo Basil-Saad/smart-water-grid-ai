@@ -54,14 +54,14 @@ The architecture enables real-time data acquisition, cloud synchronization, AI-b
 
 <p align="center"><em>System data flow.</em></p>
 
-## Project Components
+## System Components
 
 The complete system consists of five major components working together to provide an intelligent water distribution management platform.
 
 | Component | Description |
 |-----------|-------------|
-| **ESP32 Sensor Nodes** | Distributed sensing and control units for monitoring water level, flow rate, water quality, pressure, and valve/pump operation. |
-| **Cloud Platform** | Stores sensor data, synchronizes devices, and provides real-time communication between all system components. |
-| **AI Prediction Server** | Uses an XGBoost machine learning model to forecast future water demand from historical sensor data. |
-| **Web Dashboards** | Separate dashboards for the water company and customers to visualize system status and remotely monitor operations. |
-| **Digital Twin Simulation** | Python-based simulator for generating realistic water consumption data used for AI model training and evaluation. |
+| **ESP32 Sensor Nodes** | Distributed sensing and control units that monitor water level, flow rate, water quality, pressure, and operate valves and the water pump. |
+| **Firebase Cloud Platform** | Stores real-time sensor data, synchronizes all ESP32 nodes, and provides backend services for dashboards and AI processing. |
+| **XGBoost AI Prediction Model** | Predicts future water demand using historical data generated from the digital twin simulation. |
+| **Web Dashboards** | Separate dashboards for the water company and customers, providing real-time visualization, remote monitoring, and actuator control. |
+| **Digital Twin Simulation** | Python-based simulator that generates realistic water consumption datasets for training and evaluating the AI prediction model. |
