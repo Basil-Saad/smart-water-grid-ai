@@ -27,3 +27,11 @@ An AI-powered IoT platform for real-time water distribution monitoring, leakage 
 | AI Model | XGBoost |
 | Cloud | Firebase |
 | Dashboard | Company & Customer Web Dashboards |
+
+## Overview
+
+Water distribution networks face increasing challenges in infrastructure monitoring, leakage detection, and efficient resource management. Traditional monitoring methods often rely on manual inspection and provide limited real-time visibility, making it difficult to detect faults early and optimize water consumption.
+
+This project presents an **AI-powered IoT Smart Water Grid Management System** that integrates distributed ESP32-based sensing nodes, cloud connectivity, predictive analytics, and interactive web dashboards into a unified intelligent platform. The system continuously monitors water distribution, detects leakages, forecasts future water demand using an XGBoost machine learning model, and provides real-time visualization for both the water company and customers.
+
+By combining IoT, cloud computing, artificial intelligence, and digital twin simulation, the proposed solution demonstrates how modern technologies can improve operational efficiency, reduce water losses, support data-driven decision-making, and enable smarter water infrastructure management.
