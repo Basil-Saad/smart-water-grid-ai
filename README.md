@@ -35,3 +35,21 @@ Water distribution networks face increasing challenges in infrastructure monitor
 This project presents an **IoT-Based Smart Water Grid Management System with AI Predictive Analytics** that integrates distributed ESP32-based sensing nodes, cloud connectivity, predictive analytics, and interactive web dashboards into a unified intelligent platform. The system continuously monitors water distribution, detects leakages, forecasts future water demand using an XGBoost machine learning model, and provides real-time visualization for both the water company and customers.
 
 By integrating IoT, cloud computing, machine learning, and digital twin simulation, the proposed platform delivers an end-to-end intelligent water management solution that improves operational efficiency, minimizes water losses, supports predictive maintenance, and enables data-driven decision-making.
+
+## System Architecture
+
+The proposed platform consists of three distributed ESP32-based sensing nodes connected to a cloud platform, an AI prediction server, and two web dashboards for monitoring and management.
+
+The architecture enables real-time data acquisition, cloud synchronization, AI-based demand forecasting, leakage detection, and remote visualization for both the water company and customers.
+
+<p align="center">
+  <img src="images/architecture/system-architecture.jpg" width="900">
+</p>
+
+<p align="center"><em>Overall system architecture.</em></p>
+
+<p align="center">
+  <img src="images/architecture/data-flow.jpg" width="900">
+</p>
+
+<p align="center"><em>System data flow.</em></p>
