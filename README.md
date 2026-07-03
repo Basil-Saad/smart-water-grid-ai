@@ -8,7 +8,7 @@
 An AI-powered IoT platform for real-time water distribution monitoring, leakage detection, predictive analytics, intelligent water demand forecasting, and remote infrastructure management.
 
 <p align="center">
-  <img src="images/hero/system-overview.jpg" width="80%">
+  <img src="images/hero/TechConnect26_Poster.jpg" width="80%">
 </p>
 
 ## Project Highlights
