@@ -191,3 +191,13 @@ This project was developed as a Computer Engineering capstone project at King Kh
 <p align="center">
 <b>Project development team during the final project demonstration.</b>
 </p>
+
+---
+
+# 📄 License
+
+This project is protected by copyright.
+
+It is published for **academic and portfolio purposes only**.
+
+See the [LICENSE](LICENSE) file for the complete copyright and usage terms.
